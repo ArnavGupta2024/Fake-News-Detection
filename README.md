@@ -33,6 +33,9 @@ Description of columns in the file:
 ## Additional
 * Visualkeras
 ```python
+# if import visualkeras throws an error execute this statement, found it on the net
+!pip install git+https://github.com/paulgavrikov/visualkeras --upgrade
+
 import visualkeras
 visualkeras.layered_view(model)
 # model is a variable
